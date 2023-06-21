@@ -1,0 +1,54 @@
+html {
+    font-family: "Roboto", sans-serif;
+
+    @media (width<1024px) {
+        body {
+            background-color: rgba(228, 252, 202, 1);
+            background-image: none;
+        }
+        .block-title {
+            display: none;
+        }
+        .body-container {
+            margin-top: 30rem;
+        }
+        .body-container,
+        .block-registration {
+            width: 100%;
+            flex-direction: column;
+            gap: 2rem;
+        }
+        .block-inputs,
+        .block__buttons {
+            flex-direction: column;
+            align-items: center;
+            gap: 2rem;
+        }
+    }
+    @include mobile {
+        font-size: calc(100vw / $small * 10);
+    }
+    @include tablet {
+        font-size: calc(100vw / $medium * 10);
+    }
+    @include laptop {
+        font-size: calc(100vw / $normal * 10);
+    }
+    @include desktop {
+        font-size: calc(100vw / $lardge * 10);
+    }
+    @include big {
+        font-size: calc(100vw / $big * 10);
+    }
+}
+
+body {
+    background: url(../img/background-main.png) no-repeat center;
+    -webkit-background-size: cover;
+    background-size: cover;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

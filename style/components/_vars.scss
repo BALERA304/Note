@@ -1,0 +1,17 @@
+%defaul-text {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+}
+
+@mixin text($sizeText, $weight, $colorText) {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: $weight;
+    font-size: $sizeText + rem;
+    color: $colorText;
+}
+
+// @mixin test($number) {
+//     width: $number + rem;
+// }

@@ -12,21 +12,25 @@
     <a href="/index.html" class="LOGO"><img src="./img/LOGO.svg" alt="LOGO"></a> <!--заменить путь -->
 
     <div class="body-container">
-        <div class="block-registration">
+        <form class="block-registration">
             <div class="block__buttons">
-                <button class="login">Log in</button>
+                <button class="log-in">Log in</button>
                 <button class="registration">Registration</button>
             </div>
             <div class="block-inputs">
-                <input type="text" class="login">
-                <input type="password" class="password">
+                <input type="text" class="login" placeholder="Your login">
+                <input type="password" class="password" placeholder="Your password">
             </div>
-            <div class="alert-zone">GUUUUII</div>
-            <button type="submit">submit</button>
-            <a href="/FORGOTPASSWORD">Forgot password</a> <!--заменить путь -->
-        </div>
 
-        <div class="block-title">HELLO WORLD</div>
+            <div class="alert-zone">Sorry, but you entered the wrong username or password</div>
+            <button type="submit">Submit</button>
+            <a class="link-pass" href="/FORGOTPASSWORD">Forgot password</a> <!--заменить путь -->
+        </form>
+
+        <div class="block-title">
+            <h1 class="title">Hello user!</h1>
+            <h2 class="subtitle">Here you can post your<br> notes</h2>
+        </div>
 
 
     </div>
