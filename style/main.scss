@@ -1,0 +1,18 @@
+@import "reset";
+
+body {
+    background: url(../img/background-main.png) no-repeat center;
+    -webkit-background-size: cover;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+.LOGO {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    img {
+        width: 230px;
+        height: 80px;
+    }
+}
