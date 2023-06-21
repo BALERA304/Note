@@ -136,6 +136,9 @@ body {
   background: url(../img/background-main.png) no-repeat center;
   background-size: cover;
   min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .LOGO {
@@ -146,4 +149,19 @@ body {
 .LOGO img {
   width: 230px;
   height: 80px;
+}
+
+.body-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid black;
+}
+.body-container .block-registration {
+  border: 1px solid rgb(255, 0, 0);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgba(255, 255, 255, 0.2);
 }/*# sourceMappingURL=main.css.map */
